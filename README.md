@@ -1,6 +1,6 @@
 # AI Project Planning Assistant (PPA)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 An AI-powered project planning assistant to help developers create pre-production plans for any project. PPA streamlines the process of brainstorming, planning, and generating high-quality prompts for AI coding agents.
 
@@ -82,4 +82,11 @@ PPA acts as a bridge between human developers and AI coding assistants. It manag
 
 ## 📄 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
+
+## ©️ Copyright
+
+© 2025, StudioAs Inc.
+Owned by: MD. ASHIK AHMED
+GitHub: [@TheRealAshik](https://github.com/TheRealAshik)
+Email: [mashikahamed0@gmail.com](mailto:mashikahamed0@gmail.com)
