@@ -1,4 +1,22 @@
-```SQL
+# Supabase Setup
+
+This file contains the SQL schema for the AI Planning Assistant (PPA).
+
+## Database Schema
+
+The database is designed to support the core features of the PPA application. It includes tables for managing projects, context files, and saved prompts. The schema is secured with Row-Level Security (RLS) to ensure that users can only access their own data.
+
+The main tables are:
+
+*   **`projects`**: Stores the main information for each project, including the project name and the persona used for AI interactions.
+*   **`project_files`**: Stores context files associated with each project, such as documents, code snippets, and specifications.
+*   **`saved_prompts`**: Stores prompts that users have saved for a project, allowing for versioning and reuse.
+
+## SQL Schema
+
+The following SQL script can be used to set up the database schema in a Supabase project.
+
+```sql
 -- =====================================================
 -- Schema for AI Planning Assistant
 -- =====================================================
@@ -107,7 +125,6 @@ CREATE TRIGGER on_projects_update
 -- =====================================================
 -- SETUP COMPLETE
 -- =====================================================
-```
 
 
 
@@ -169,3 +186,4 @@ CREATE TABLE public.saved_prompts (
   CONSTRAINT saved_prompts_project_id_fkey FOREIGN KEY (project_id) REFERENCES public.projects(id),
   CONSTRAINT saved_prompts_user_id_fkey FOREIGN KEY (user_id) REFERENCES auth.users(id)
 );
+```

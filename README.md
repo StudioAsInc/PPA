@@ -4,6 +4,16 @@
 
 An AI-powered project planning assistant to help developers create pre-production plans for any project. PPA streamlines the process of brainstorming, planning, and generating high-quality prompts for AI coding agents.
 
+## 📚 Table of Contents
+
+- [🧠 Core Concept](#-core-concept)
+- [🧩 Tech Stack](#-tech-stack)
+- [📦 Core Features](#-core-features)
+- [🚀 Getting Started](#-getting-started)
+- [📄 License](#-license)
+- [©️ Copyright](#️-copyright)
+- [🤔 FAQs](#-faqs)
+
 ## 🧠 Core Concept
 
 PPA acts as a bridge between human developers and AI coding assistants. It manages project context, stores files and prompts securely in Supabase, and uses Google's AI models for:
@@ -90,3 +100,21 @@ This project is licensed under the GNU General Public License v3.0. See the [LIC
 Owned by: MD. ASHIK AHMED
 GitHub: [@TheRealAshik](https://github.com/TheRealAshik)
 Email: [mashikahamed0@gmail.com](mailto:mashikahamed0@gmail.com)
+
+## 🤔 FAQs
+
+**1. What is the main purpose of the AI Project Planning Assistant (PPA)?**
+
+> PPA is designed to help software developers plan complex projects by providing a structured environment for brainstorming, managing project context, and refining prompts for AI coding agents. It acts as a bridge between human developers and AI, streamlining the pre-production phase of software development.
+
+**2. What is the technology stack used in this project?**
+
+> The frontend is built with React, TypeScript, Vite, TailwindCSS, and ShadCN/UI. The backend is powered by Supabase, using its PostgreSQL database, authentication, and serverless functions. The AI layer integrates with Google's Gemini and Gemma models.
+
+**3. Is this project open source?**
+
+> Yes, PPA is licensed under the GNU General Public License v3.0 (GPLv3). You are free to use, modify, and distribute the software under the terms of the license.
+
+**4. How do I get started with the project?**
+
+> To get started, you will need to clone the repository, install the dependencies, and set up your environment variables, including your Supabase and Google AI API keys. For detailed instructions, please refer to the [Getting Started](#-getting-started) section of this README.
